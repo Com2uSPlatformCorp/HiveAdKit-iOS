@@ -19,4 +19,8 @@ Pod::Spec.new do |spec|
 
   $vendored_frameworks_path = "Hive_AdKit_iOS_ADOPv#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.framework"
+
+  spec.dependency 'BidmadSDK', '6.2.0'
+  spec.dependency 'OpenBiddingHelper', '6.2.0'
+  spec.dependency 'BidmadAdapterDynamic', '6.2.0'
 end
