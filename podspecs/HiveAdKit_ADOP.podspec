@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
-  spec.name         = "HiveAdKit"
+  spec.name         = "HiveAdKit_ADOP"
   spec.version      = "1.4.2-beta1"
-  spec.summary      = "HiveAdKit optional framework"
-  spec.description  = "HiveAdKit to use ad service with Hive SDK"
+  spec.summary      = "HiveAdKit_ADOP optional framework"
+  spec.description  = "HiveAdKit_ADOP to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
   spec.license      = {
     :type => 'Apache-2.0', 
@@ -14,9 +14,9 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.source       = { 
-    :http => "https://github.com/Com2uSPlatformCorp/HiveAdKit-iOS/releases/download/#{spec.version}/Hive_AdKit_iOS_v#{spec.version}.zip"
+    :http => "https://github.com/Com2uSPlatformCorp/HiveAdKit-iOS/releases/download/#{spec.version}/Hive_AdKit_iOS_ADOPv#{spec.version}.zip"
   }
 
-  $vendored_frameworks_path = "Hive_AdKit_iOS_v#{spec.version}"
+  $vendored_frameworks_path = "Hive_AdKit_iOS_ADOPv#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.framework"
 end
