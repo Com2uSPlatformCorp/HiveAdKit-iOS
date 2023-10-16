@@ -18,9 +18,10 @@ Pod::Spec.new do |spec|
   }
 
   $vendored_frameworks_path = "Hive_AdKit_iOS_ADOP_v#{spec.version}"
-  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.framework"
+  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.xcframework"
 
-  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  # xcframework로 진행한다면 VALID ARCHS 강제처리 필요 없음
+  #spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
   spec.dependency 'BidmadSDK', '6.3.2'
   spec.dependency 'OpenBiddingHelper', '6.3.2'
