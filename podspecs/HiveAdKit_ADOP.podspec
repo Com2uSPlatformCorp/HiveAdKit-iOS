@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_ADOP"
-  spec.version      = "1.4.2"
+  spec.version      = "1.4.4"
   spec.summary      = "HiveAdKit_ADOP optional framework"
   spec.description  = "HiveAdKit_ADOP to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.author       = { "Com2usPlatrformCorp" => "pc@com2us.com" }
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
   spec.swift_version = "5.0"
 
   spec.source       = { 
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
-  spec.dependency 'BidmadSDK', '6.2.0'
-  spec.dependency 'OpenBiddingHelper', '6.2.0'
-  spec.dependency 'BidmadAdapterDynamic', '6.2.0'
+  spec.dependency 'BidmadSDK', '6.3.2'
+  spec.dependency 'OpenBiddingHelper', '6.3.2'
+  spec.dependency 'BidmadAdapterDynamic', '6.3.1'
 end
