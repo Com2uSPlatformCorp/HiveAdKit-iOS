@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_ADOP"
-  spec.version      = "1.4.6-betaResource"
+  spec.version      = "1.4.6-betaResource2"
   spec.summary      = "HiveAdKit_ADOP optional framework"
   spec.description  = "HiveAdKit_ADOP to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -19,7 +19,6 @@ Pod::Spec.new do |spec|
 
   $vendored_frameworks_path = "Hive_AdKit_iOS_ADOP_v#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.xcframework"
-  spec.dependency 'HiveAdKit_ADOP_PrivacyInfo', "#{spec.version}"
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
