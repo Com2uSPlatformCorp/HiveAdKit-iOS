@@ -21,8 +21,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.xcframework"
   spec.resource_bundles = {'HiveAdKitPrivacyInfo' => ["#{$vendored_frameworks_path}/AdKit.xcframework/ios-arm64/AdKit.framework/PrivacyInfo.xcprivacy"],
 
-  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
-
   # NECESSARY
   spec.dependency 'BidmadSDK', '6.6.1'
   spec.dependency 'OpenBiddingHelper', '6.6.1'
@@ -42,4 +40,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'BidmadAtomAdapter', '1.0.0.3'
   spec.dependency 'BidmadAdFitAdapter', '3.12.7.4'
   spec.dependency 'BidmadIronSourceAdapter', '7.8.0.0.0'
+
+  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+
 end
