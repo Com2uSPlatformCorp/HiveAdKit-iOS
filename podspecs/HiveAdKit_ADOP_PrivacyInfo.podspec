@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_ADOP_PrivacyInfo"
-  spec.version      = "1.4.6-betaResource"
+  spec.version      = "1.4.6-beta3"
   spec.summary      = "HiveAdKit_ADOP_PrivacyInfo optional PrivacyInfo"
   spec.description  = "HiveAdKit_ADOP_PrivacyInfo to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
