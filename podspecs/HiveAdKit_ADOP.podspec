@@ -18,7 +18,8 @@ Pod::Spec.new do |spec|
   }
 
   $vendored_frameworks_path = "Hive_AdKit_iOS_ADOP_v#{spec.version}"
-  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.framework"
+  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.xcframework"
+  spec.resource_bundles = {'HiveAdKitPrivacyInfo' => ["#{$vendored_frameworks_path}/AdKit.xcframework/ios-arm64/AdKit.framework/PrivacyInfo.xcprivacy"],
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
