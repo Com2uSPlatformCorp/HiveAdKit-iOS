@@ -19,28 +19,28 @@ Pod::Spec.new do |spec|
 
   $vendored_frameworks_path = "Hive_AdKit_iOS_ADOP_v#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.xcframework"
-  spec.resource_bundles = {'HiveAdKitPrivacyInfo' => ["#{$vendored_frameworks_path}/AdKit.xcframework/ios-arm64/AdKit.framework/PrivacyInfo.xcprivacy"],
-
-  # NECESSARY
-  spec.dependency 'BidmadSDK', '6.6.1'
-  spec.dependency 'OpenBiddingHelper', '6.6.1'
-  spec.dependency 'BidmadGoogleAdMobAdapter', '11.2.0.0'
-  spec.dependency 'BidmadGoogleAdManagerAdapter', '11.2.0.0'
-  spec.dependency 'BidmadAppLovinAdapter', '12.2.1.0'
-  spec.dependency 'BidmadUnityAdsAdapter', '4.9.3.0'
-  spec.dependency 'BidmadPangleAdapter', '5.8.0.7.0'
-  spec.dependency 'BidmadFyberAdapter', '8.2.6.0'
-  spec.dependency 'BidmadVungleAdapter', '7.2.2.0'
-  spec.dependency 'BidmadPubmaticAdapter', '3.2.0.3'
-  spec.dependency 'BidmadADOPCoupangAdapter', '1.0.0.3'
-  spec.dependency 'BidmadPartners/AdMobBidding', '1.0.3'
-  
-  # OPTIONAL
-  spec.dependency 'BidmadTeadsAdapter', '5.0.27.3'
-  spec.dependency 'BidmadAtomAdapter', '1.0.0.3'
-  spec.dependency 'BidmadAdFitAdapter', '3.12.7.4'
-  spec.dependency 'BidmadIronSourceAdapter', '7.8.0.0.0'
+  spec.resource_bundles = {'HiveAdKitPrivacyInfo' => ["#{$vendored_frameworks_path}/AdKit.xcframework/ios-arm64/AdKit.framework/PrivacyInfo.xcprivacy"]
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+
+  # NECESSARY
+  spec.dependency 'BidmadSDK', "6.6.1"
+  spec.dependency 'OpenBiddingHelper', "6.6.1"
+  spec.dependency 'BidmadGoogleAdMobAdapter', "11.2.0.0"
+  spec.dependency 'BidmadGoogleAdManagerAdapter', "11.2.0.0"
+  spec.dependency 'BidmadAppLovinAdapter', "12.2.1.0"
+  spec.dependency 'BidmadUnityAdsAdapter', "4.9.3.0"
+  spec.dependency 'BidmadPangleAdapter', "5.8.0.7.0"
+  spec.dependency 'BidmadFyberAdapter', "8.2.6.0"
+  spec.dependency 'BidmadVungleAdapter', "7.2.2.0"
+  spec.dependency 'BidmadPubmaticAdapter', "3.2.0.3"
+  spec.dependency 'BidmadADOPCoupangAdapter', "1.0.0.3"
+  spec.dependency 'BidmadPartners/AdMobBidding', "1.0.3"
+  
+  # OPTIONAL
+  spec.dependency 'BidmadTeadsAdapter', "5.0.27.3"
+  spec.dependency 'BidmadAtomAdapter', "1.0.0.3"
+  spec.dependency 'BidmadAdFitAdapter', "3.12.7.4"
+  spec.dependency 'BidmadIronSourceAdapter', "7.8.0.0.0"
 
 end
