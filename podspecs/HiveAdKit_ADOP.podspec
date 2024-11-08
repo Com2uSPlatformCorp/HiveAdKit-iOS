@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_ADOP"
-  spec.version      = "1.5.1-beta1"
+  spec.version      = "1.5.1"
   spec.summary      = "HiveAdKit_ADOP optional framework"
   spec.description  = "HiveAdKit_ADOP to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
