@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_ADOP"
-  spec.version      = "1.5.1"
+  spec.version      = "1.5.3-beta1"
   spec.summary      = "HiveAdKit_ADOP optional framework"
   spec.description  = "HiveAdKit_ADOP to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.author       = { "Com2usPlatrformCorp" => "pc@com2us.com" }
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "13.0"
   spec.swift_version = "5.0"
 
   spec.source       = { 
@@ -23,25 +23,21 @@ Pod::Spec.new do |spec|
 
   spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
-  # NECESSARY
-  spec.dependency 'BidmadSDK', "6.11.0"
-  spec.dependency 'OpenBiddingHelper', "6.11.0"
-  spec.dependency 'BidmadGoogleAdMobAdapter', "11.10.0.10.0"
-  spec.dependency 'BidmadGoogleAdManagerAdapter', "11.10.0.10.0"
-  spec.dependency 'BidmadAppLovinAdapter', "13.0.0.10.0"
-  spec.dependency 'BidmadUnityAdsAdapter', "4.12.3.10.0"
-  spec.dependency 'BidmadPangleAdapter', "6.2.0.7.10.0"
-  spec.dependency 'BidmadFyberAdapter', "8.3.2.10.0"
-  spec.dependency 'BidmadVungleAdapter', "7.4.1.10.0"
-  spec.dependency 'BidmadPubmaticAdapter', "3.2.0.10.0"
-  spec.dependency 'BidmadAdpieAdapter', "1.6.1.10.0"
-  spec.dependency 'BidmadAdPopcornAdapter', "2.6.5.10.0"
-  spec.dependency 'BidmadPartners/AdMobBidding', "1.0.5"
-
-  # OPTIONAL
-  spec.dependency 'BidmadTeadsAdapter', "5.0.27.10.0"
-  spec.dependency 'BidmadAtomAdapter', "1.0.0.10.0"
-  spec.dependency 'BidmadAdFitAdapter', "3.12.7.10.0"
-  spec.dependency 'BidmadIronSourceAdapter', "8.3.0.0.10.0"
+  spec.dependency "BidmadSDK", "6.12.4"
+  spec.dependency "OpenBiddingHelper", "6.12.3"
+  spec.dependency "BidmadAdFitAdapter", "3.12.7.11.0"
+  spec.dependency "BidmadAdmixerAdapter", "2.0.2.11.1"
+  spec.dependency "BidmadAppLovinAdapter", "13.3.1.11.0"
+  spec.dependency "BidmadFyberAdapter", "8.3.7.11.0"
+  spec.dependency "BidmadGoogleAdManagerAdapter", "12.6.0.11.0"
+  spec.dependency "BidmadGoogleAdMobAdapter", "12.6.0.11.0"
+  spec.dependency "BidmadMobwithAdapter", "1.0.0.11.2"
+  spec.dependency "BidmadORTBAdapter", "1.0.0.11.2"
+  spec.dependency "BidmadPangleAdapter", "7.2.0.5.11.0"
+  spec.dependency "BidmadTaboolaAdapter", "3.8.33.11.2"
+  spec.dependency "BidmadTeadsAdapter", "5.2.0.11.2"
+  spec.dependency "BidmadUnityAdsAdapter", "4.15.0.11.0"
+  spec.dependency "BidmadVungleAdapter", "7.5.1.11.0"
+  spec.dependency "BidmadPartners/AdMobBidding", "1.0.7"
 
 end

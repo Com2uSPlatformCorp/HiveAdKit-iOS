@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_ADOP_PrivacyInfo"
-  spec.version      = "1.5.1"
+  spec.version      = "1.5.3-beta1"
   spec.summary      = "HiveAdKit_ADOP_PrivacyInfo optional PrivacyInfo"
   spec.description  = "HiveAdKit_ADOP_PrivacyInfo to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.author       = { "Com2usPlatrformCorp" => "pc@com2us.com" }
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "13.0"
   spec.swift_version = "5.0"
 
   spec.source       = { 
