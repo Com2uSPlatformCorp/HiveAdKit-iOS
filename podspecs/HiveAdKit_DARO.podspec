@@ -19,8 +19,9 @@ Pod::Spec.new do |spec|
 
   $vendored_frameworks_path = "Hive_AdKit_iOS_DARO_v#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.xcframework"
+  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/DaroRevenuePlugin.xcframework"
 
-  spec.dependency "DaroAds", "1.1.30-alpha"
+  spec.dependency "DaroAds", "1.1.31"
   spec.dependency "DaroCMPSDK", "0.0.6"
 
 end
