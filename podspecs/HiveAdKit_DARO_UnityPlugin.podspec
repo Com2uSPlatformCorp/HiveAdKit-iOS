@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_DARO_UnityPlugin"
-  spec.version      = "1.5.3-beta5"
+  spec.version      = "1.5.3-beta6"
   spec.summary      = "HiveAdKit_DARO_UnityPlugin optional PrivacyInfo"
   spec.description  = "HiveAdKit_DARO_UnityPlugin to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
