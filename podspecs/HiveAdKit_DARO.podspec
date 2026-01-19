@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_DARO"
-  spec.version      = "1.5.3"
+  spec.version      = "1.5.4-beta1"
   spec.summary      = "HiveAdKit_DARO optional framework"
   spec.description  = "HiveAdKit_DARO to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/AdKit.xcframework",
                               "#{$vendored_frameworks_path}/DaroRevenuePlugin.xcframework"
 
-  spec.dependency "DaroAds", "1.1.37"
+  spec.dependency "DaroAds", "1.1.49"
   spec.dependency "DaroCMPSDK", "0.0.8"
 
 end
