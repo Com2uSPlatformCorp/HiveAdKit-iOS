@@ -22,6 +22,6 @@ Pod::Spec.new do |spec|
                               "#{$vendored_frameworks_path}/DaroRevenuePlugin.xcframework"
 
   spec.dependency "DaroAds", "1.1.49"
-  spec.dependency "DaroCMPSDK", "0.0.8"
+  spec.dependency "DaroCMPSDK", "0.1.0"
 
 end
