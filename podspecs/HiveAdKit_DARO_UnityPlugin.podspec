@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdKit_DARO_UnityPlugin"
-  spec.version      = "1.5.4"
+  spec.version      = "1.6.0-alpha1"
   spec.summary      = "HiveAdKit_DARO_UnityPlugin optional PrivacyInfo"
   spec.description  = "HiveAdKit_DARO_UnityPlugin to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.author       = { "Com2usPlatrformCorp" => "pc@com2us.com" }
-  spec.platform     = :ios, "13.0"
+  spec.platform     = :ios, "14.0"
   spec.swift_version = "5.0"
 
   spec.source       = { 
