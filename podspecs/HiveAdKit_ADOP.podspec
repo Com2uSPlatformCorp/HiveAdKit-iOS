@@ -39,5 +39,4 @@ Pod::Spec.new do |spec|
   spec.dependency "BidmadTeadsAdapter", "6.1.0.15.0"
   spec.dependency "BidmadUnityAdsAdapter", "4.17.0.15.0"
   spec.dependency "BidmadVungleAdapter", "7.7.2.15.0"
-  spec.dependency "BidmadPartners/AdMobBidding", "1.0.13"
 end
